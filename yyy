@@ -1,0 +1,6 @@
+[Input Layer]        [Hidden Layer 1]     [Hidden Layer 2]     [Output Layer]
+   |                      |                     |                      |
+[Flatten Layer]   [Linear (512)]        [Linear (512)]       [Linear (10)]
+   |                      |                     |                      |
+   ------------------------     ReLU     ------------------------     ReLU
+   |                      |                     |                      |
